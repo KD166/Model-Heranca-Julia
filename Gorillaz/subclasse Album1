@@ -1,0 +1,40 @@
+package Heranca;
+
+public class Gorillaz {
+     
+  Int ano_formacao ;
+  String membros;
+  Int numero_albums;
+
+  public Gorillaz(){}
+
+  public Gorillaz (Int ano_formacao, String membros, Int numero_albums){
+   this.ano_formacao = 1998;
+   this.membros = 2D, Noodle, Murdoc, Russel;
+   this.numero_albums = 8;
+  }
+}
+
+
+package Heranca;
+public class Gorillaz_album extends Gorillaz {
+
+  String musica1;
+  String musica2;
+  String musica3;
+
+  public Gorillaz_album() {
+    
+ super();
+}
+
+  public Gorillaz_album(Int ano_formacao, String membros,  Int numero_albums, 
+  String musica1, String musica2,
+   String musica3) {
+
+    super(ano_formacao, membros, numero_albums);
+  
+    this.musica1 = Re-Hash;
+    this.musica2 = Tomorrow_Comes_Today;
+    this.musica3 = Clint_Eastwood;
+}
